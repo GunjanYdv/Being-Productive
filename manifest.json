@@ -1,0 +1,17 @@
+{
+    "name":"Being Productive",
+    "description": "Your producutivity buddy with inbuild To-Do Llist, Pomodromo Timer and quote of the day feature",
+    "version": "0.0.1",
+    "manifest_version" : 2,
+    "browser_action": { 
+        "default_popup": "popup.html"
+    },
+    "permissions":[
+        "tabs",
+        "alarams",
+        "storage",
+        "notifications",
+        "contextMenus"
+    ]
+      
+}
